@@ -21,3 +21,14 @@ header img {
   height: 50px;
 }
 
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #4a6cff;
+}
