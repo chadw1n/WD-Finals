@@ -59,3 +59,23 @@ nav a:hover {
   z-index: 2;
 }
 
+.hero-text {
+  position: absolute;
+  max-width: 300px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.hero-text.left {
+  bottom: 20px;
+  left: 30px;
+  padding-left: 1.8rem;
+}
+
+.hero-text.right {
+  bottom: 30px;
+  right: 30px;
+  padding-right: 1.8rem;
+}
+
