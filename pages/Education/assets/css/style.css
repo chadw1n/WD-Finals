@@ -53,6 +53,52 @@ nav a:hover {
   color: #bbb;
 }
 
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background-color: #4a6cff;
+}
+
+.timeline-item {
+  text-align: center;
+  width: 30%;
+}
+
+.timeline-item .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  background-color: #000;
+  border: 3px solid #4a6cff;
+}
+
+.timeline-item.past .circle {
+  background-color: #000;
+}
+
+.timeline-item.present .circle {
+  background-color: #fff;
+}
+
+.edu-box {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
 footer {
   background-color: #222;
   color: #fff;
