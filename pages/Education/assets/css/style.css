@@ -15,6 +15,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 20;
   background-color: #111;
 }
 
@@ -34,6 +38,10 @@ nav a:hover {
   color: #4a6cff;
 }
 
+header, header nav a {
+  font-family: 'Poppins', sans-serif;
+}
+
 .education-section {
   min-height: 100vh;
   padding: 80px 20px;
@@ -43,6 +51,7 @@ nav a:hover {
 }
 
 .education-section h1 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   margin-bottom: 20px;
 }
@@ -81,7 +90,7 @@ nav a:hover {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 0 auto 20px;
+  margin: 0 auto 20px auto;
   background-color: #000;
   border: 3px solid #4a6cff;
 }
@@ -212,4 +221,24 @@ footer {
 
 .footer-bottom p {
   font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-item {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .timeline::before {
+    height: 100%;
+    width: 4px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
