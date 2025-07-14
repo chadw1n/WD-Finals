@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #111;
   color: #fff;
 }
@@ -14,8 +14,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #111;
   padding: 20px 50px;
+  background-color: #111;
 }
 
 header img {
@@ -23,9 +23,9 @@ header img {
 }
 
 nav a {
-  color: #fff;
+  margin: 0 15px;
   text-decoration: none;
-  margin-right: 15px;
+  color: #fff;
   font-weight: 500;
   transition: color 0.3s;
 }
@@ -68,11 +68,13 @@ nav a:hover {
   height: 4px;
   width: 100%;
   background-color: #4a6cff;
+  z-index: -1;
 }
 
 .timeline-item {
   text-align: center;
   width: 30%;
+  position: relative;
 }
 
 .timeline-item .circle {
@@ -97,6 +99,45 @@ nav a:hover {
   padding: 20px;
   border-radius: 15px;
   margin-top: 10px;
+  transition: transform 0.3s;
+}
+
+.edu-box:hover {
+  transform: translateY(-5px);
+}
+
+.edu-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.edu-box p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #bbb;
+}
+
+.edu-box img.edu-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.year-tag {
+  background: linear-gradient(135deg, #4a6cff, #6f9dff);
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+}
+
+.timeline-item:hover .year-tag {
+  transform: scale(1.05);
 }
 
 footer {
