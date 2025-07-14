@@ -91,5 +91,18 @@
     </div>
   </footer>
 
+  <script>
+  const yearTags = document.querySelectorAll('.year-tag');
+
+  yearTags.forEach(tag => {
+    tag.addEventListener('mouseenter', () => {
+      tag.closest('.timeline-item').classList.add('hover');
+    });
+    tag.addEventListener('mouseleave', () => {
+      tag.closest('.timeline-item').classList.remove('hover');
+    });
+  });
+</script>
+
 </body>
 </html>

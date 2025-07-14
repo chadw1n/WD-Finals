@@ -145,8 +145,14 @@ header, header nav a {
   transition: transform 0.3s;
 }
 
-.timeline-item:hover .year-tag {
+.timeline-item:hover .year-tag,
+.timeline-item.hover .year-tag {
   transform: scale(1.05);
+}
+
+.timeline-item:hover .edu-box,
+.timeline-item.hover .edu-box {
+  transform: translateY(-5px);
 }
 
 footer {
