@@ -37,6 +37,10 @@ nav a:hover {
   color: #4a6cff;
 }
 
+header, header nav a {
+  font-family: 'Poppins', sans-serif;
+}
+
 .hero {
   position: relative;
   width: 100%;
