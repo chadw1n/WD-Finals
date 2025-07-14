@@ -75,7 +75,9 @@ nav a:hover {
 .hero-text.left {
   bottom: 20px;
   left: 30px;
-  padding-left: 1.8rem;
+  padding-left: 1.2rem;
+  max-width: 35%;
+  font-size: 1.1rem;
 }
 
 .hero-text.right {
