@@ -121,6 +121,11 @@ footer {
 .footer-links ul li a {
   text-decoration: none;
   color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #4a6cff;
 }
 
 .footer-social .social-icons {
@@ -131,6 +136,11 @@ footer {
   margin: 0 10px;
   font-size: 1.4rem;
   color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #4a6cff;
 }
 
 .footer-bottom {
