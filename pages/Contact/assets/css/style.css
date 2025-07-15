@@ -37,10 +37,6 @@ nav a:hover {
   color: #4a6cff;
 }
 
-header, header nav a {
-  font-family: 'Poppins', sans-serif;
-}
-
 .contact-section {
   display: flex;
   justify-content: space-between;
@@ -62,6 +58,20 @@ header, header nav a {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+}
+
+.contact-left h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 150px;
 }
 
 footer {
