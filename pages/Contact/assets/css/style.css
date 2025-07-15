@@ -31,7 +31,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 
 nav a:hover {
@@ -62,14 +62,14 @@ nav a:hover {
 }
 
 .contact-left h1 {
-  font-size: 3.2rem; 
+  font-size: 3.2rem;
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 20px;
 }
 
 .contact-left p {
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
   color: #ccc;
   margin-bottom: 150px;
 }
@@ -155,7 +155,7 @@ nav a:hover {
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; 
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .submit-btn:hover {
@@ -208,7 +208,7 @@ footer {
 .footer-links ul li a {
   color: #fff;
   text-decoration: none;
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 
 .footer-links ul li a:hover {
@@ -223,7 +223,7 @@ footer {
   margin: 0 10px;
   font-size: 1.4rem;
   color: #fff;
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 
 .footer-social a:hover {
