@@ -153,6 +153,17 @@ nav a:hover {
   padding: 0 1rem;
 }
 
+.preview-gallery img {
+  width: calc(50% - 1rem);
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.preview-gallery img:hover {
+  transform: scale(1.05);
+}
+
 .preview-toggle:checked + label + .visit + .preview-gallery {
   display: flex;
 }
