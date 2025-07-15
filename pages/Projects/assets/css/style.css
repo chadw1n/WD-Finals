@@ -132,7 +132,7 @@ nav a:hover {
 }
 
 .btn:hover {
-  background: #666;
+  background: #222; 
   transform: translateY(-2px);
 }
 
@@ -141,7 +141,7 @@ nav a:hover {
 }
 
 .visit:hover {
-  background: #777;
+  background: #333; 
 }
 
 .preview-gallery {
