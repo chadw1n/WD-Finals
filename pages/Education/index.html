@@ -60,17 +60,6 @@
     </div>
   </section>
 
-  <div class="grad-highlight">
-    <div class="grad-text">
-      <h2>Ready for the Next Chapter</h2>
-      <p>Learning never stops; this is just the beginning of my journey in technology and cybersecurity. Explore my projects or get in touch to connect!</p>
-      <a href="./pages/Projects/index.html" class="cta-button">See My Projects</a>
-    </div>
-    <div class="grad-image">
-      <img src="./assets/img/Studio Session-1456.jpg" alt="Graduation Photo">
-    </div>
-  </div>
-
   <footer>
     <div class="footer-content">
       <div class="footer-about">
@@ -103,16 +92,17 @@
   </footer>
 
   <script>
-    const yearTags = document.querySelectorAll('.year-tag');
-    yearTags.forEach(tag => {
-      tag.addEventListener('mouseenter', () => {
-        tag.closest('.timeline-item').classList.add('hover');
-      });
-      tag.addEventListener('mouseleave', () => {
-        tag.closest('.timeline-item').classList.remove('hover');
-      });
+  const yearTags = document.querySelectorAll('.year-tag');
+
+  yearTags.forEach(tag => {
+    tag.addEventListener('mouseenter', () => {
+      tag.closest('.timeline-item').classList.add('hover');
     });
-  </script>
+    tag.addEventListener('mouseleave', () => {
+      tag.closest('.timeline-item').classList.remove('hover');
+    });
+  });
+</script>
 
 </body>
 </html>
