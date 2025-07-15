@@ -1,11 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #000;
+  background: url('../img/bg.png') no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   margin: 0;
   padding: 0;
-  background: url('../img/bg.png') no-repeat center center fixed;
-  background-size: cover;
 }
 
 header {
@@ -32,7 +31,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
-  transition: color 0.3s;
+  transition: color 0.3s; 
 }
 
 nav a:hover {
@@ -63,15 +62,14 @@ nav a:hover {
 }
 
 .contact-left h1 {
-  font-size: 3.2rem;
+  font-size: 3.2rem; 
   font-weight: 700;
   line-height: 1.1;
-  color: #fff;
   margin-bottom: 20px;
 }
 
 .contact-left p {
-  font-size: 1.1rem;
+  font-size: 1.1rem; 
   color: #ccc;
   margin-bottom: 150px;
 }
@@ -86,7 +84,6 @@ nav a:hover {
   display: flex;
   align-items: center;
   gap: 15px;
-  color: #fff;
 }
 
 .info-item i {
@@ -100,7 +97,6 @@ nav a:hover {
 .info-item strong {
   font-weight: 600;
   font-size: 1rem;
-  display: block;
 }
 
 .info-item p {
@@ -159,7 +155,7 @@ nav a:hover {
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 .submit-btn:hover {
@@ -173,8 +169,6 @@ footer {
   width: 100%;
   margin-top: 60px;
   padding: 0;
-  box-shadow: none;
-  border-radius: 0;
 }
 
 .footer-content {
@@ -186,9 +180,6 @@ footer {
   justify-content: space-between;
   gap: 60px;
   flex-wrap: wrap;
-  background: none;
-  box-shadow: none;
-  border-radius: 0;
 }
 
 .footer-content > div {
@@ -217,7 +208,7 @@ footer {
 .footer-links ul li a {
   color: #fff;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 0.3s; 
 }
 
 .footer-links ul li a:hover {
@@ -232,7 +223,7 @@ footer {
   margin: 0 10px;
   font-size: 1.4rem;
   color: #fff;
-  transition: color 0.3s;
+  transition: color 0.3s; 
 }
 
 .footer-social a:hover {
@@ -245,6 +236,4 @@ footer {
   text-align: center;
   padding: 15px 20px;
   font-size: 0.9rem;
-  box-shadow: none;
-  border-radius: 0;
 }
