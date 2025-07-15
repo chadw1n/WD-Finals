@@ -1,3 +1,5 @@
+/* Base and header styles remain unchanged */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,16 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #000;
   color: #fff;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
 }
 
 header {
@@ -40,6 +52,32 @@ nav a:hover {
 
 header, header nav a {
   font-family: 'Poppins', sans-serif;
+}
+
+.projects-section {
+  padding-top: 150px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.projects-section h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.projects-section p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  color: #ccc;
+}
+
+.intro-text {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .project-card {
