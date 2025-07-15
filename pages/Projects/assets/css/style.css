@@ -167,3 +167,24 @@ nav a:hover {
 .preview-toggle:checked + label + .visit + .preview-gallery {
   display: flex;
 }
+
+.tags {
+  margin: 1rem 0;
+}
+
+.tags i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.html-icon {
+  color: #e44d26;
+}
+
+.css-icon {
+  color: #264de4;
+}
+
+.js-icon {
+  color: #f0db4f;
+}
