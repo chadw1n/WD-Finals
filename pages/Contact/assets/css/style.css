@@ -142,6 +142,29 @@ nav a:hover {
   height: 120px;
 }
 
+.form-submit-outside {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.submit-btn {
+  padding: 14px 40px;
+  background-color: #fff;
+  color: #001eff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
 footer {
   background-color: #222;
   color: #fff;
