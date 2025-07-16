@@ -101,9 +101,21 @@ header, header nav a {
   letter-spacing: 0.2rem;
 }
 
+.org-text,
+.org-title-vertical {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
 .org-text.visible,
 .org-title-vertical.visible {
   opacity: 1;
+}
+
+.org-image img {
+  transform: scale(1.5);
+  opacity: 0;
+  transition: transform 3s ease, opacity 1.5s ease;
 }
 
 .org-image img.moved {

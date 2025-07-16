@@ -84,13 +84,11 @@
     const orgImage = document.querySelector('.org-image img');
     const orgText = document.querySelector('.org-text');
     const orgTitle = document.querySelector('.org-title-vertical');
-
-    // Animate the image first
+    
     setTimeout(() => {
       orgImage.classList.add('moved');
     }, 500);
-
-    // After image finishes, fade in text and vertical title
+    
     setTimeout(() => {
       orgText.classList.add('visible');
       orgTitle.classList.add('visible');
