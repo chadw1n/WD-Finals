@@ -50,6 +50,59 @@ body {
   padding-top: 90px; 
 }
 
+.skills-section {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-section h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.skills-section .intro {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  color: #bbb;
+}
+
+.skills-section h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  border-bottom: 2px solid #4a6cff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skill {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.skill p {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.skill-bar {
+  background-color: #333;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #4a6cff;
+  border-radius: 20px;
+  width: 70%; 
+}
+
+
 footer {
   font-family: 'Poppins', sans-serif;
   background-color: #111; 
