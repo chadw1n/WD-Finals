@@ -260,6 +260,14 @@ footer {
   color: #4a6cff;
 }
 
+.footer-social a i {
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-social a:hover i {
+  transform: scale(1.2);
+}
+
 .footer-bottom {
   text-align: center;
   padding: 12px 20px;
