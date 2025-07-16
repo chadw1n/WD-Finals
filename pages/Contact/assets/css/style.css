@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -36,6 +40,10 @@ nav a {
 
 nav a:hover {
   color: #4a6cff;
+}
+
+header, header nav a {
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact-section {
