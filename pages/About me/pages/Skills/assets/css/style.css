@@ -99,8 +99,24 @@ body {
   height: 100%;
   background-color: #4a6cff;
   border-radius: 20px;
+  width: 0;
 }
 
+.skill-level.cplusplus {
+  width: 70%;
+}
+
+.skill-level.htmlcss {
+  width: 45%;
+}
+
+.skill-level.javascript {
+  width: 25%;
+}
+
+.skill-level.uxdesign {
+  width: 70%;
+}
 
 footer {
   font-family: 'Poppins', sans-serif;
