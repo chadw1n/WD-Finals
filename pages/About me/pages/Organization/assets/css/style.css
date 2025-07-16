@@ -81,6 +81,17 @@ header, header nav a {
   line-height: 1.6;
 }
 
+.org-image-wrapper {
+  flex: 1.5;
+  text-align: center;
+  min-height: 300px;
+}
+
+.org-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 footer {
   font-family: 'Poppins', sans-serif;
   background-color: #111; 
