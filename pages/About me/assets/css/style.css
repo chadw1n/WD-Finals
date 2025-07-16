@@ -37,6 +37,56 @@ main.about-container {
   text-align: center;
 }
 
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.left-panel h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.left-panel p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.email-btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 25px;
+  transition: background 0.3s;
+}
+
+.email-btn:hover {
+  background-color: #333;
+}
+
+.left-panel .social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.left-panel .social-icons a {
+  color: #000;
+  font-size: 20px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.left-panel .social-icons a:hover {
+  color: #555;
+  transform: scale(1.2);
+}
+
 .right-panel {
   flex: 2;
   overflow-y: auto;
