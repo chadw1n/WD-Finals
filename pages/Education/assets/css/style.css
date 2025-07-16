@@ -229,6 +229,31 @@ footer {
   font-size: 0.9rem;
 }
 
+.timeline-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.timeline {
+  flex: 1 1 60%;
+}
+
+.timeline-image {
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.timeline-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
 @media (max-width: 768px) {
   .timeline {
     flex-direction: column;
