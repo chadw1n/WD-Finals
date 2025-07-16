@@ -107,8 +107,8 @@ header, header nav a {
 }
 
 footer {
-  background-color: #111; /* Slightly darker for modern look */
-  color: #ccc; /* Softer than pure white */
+  background-color: #111; 
+  color: #ccc; 
 }
 
 .footer-content {
@@ -117,7 +117,7 @@ footer {
   justify-content: space-between;
   padding: 40px 60px;
   gap: 40px;
-  border-top: 1px solid #333; /* Adds a subtle divider above footer */
+  border-top: 1px solid #333; 
 }
 
 .footer-content > div {
