@@ -255,14 +255,18 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .timeline {
+  .timeline-container {
     flex-direction: column;
     align-items: center;
   }
 
-  .timeline-item {
-    width: 80%;
-    margin-bottom: 50px;
+  .timeline {
+    width: 100%;
+  }
+
+  .timeline-image {
+    width: 100%;
+    margin-top: 30px;
   }
 
   .timeline::before {
@@ -271,5 +275,10 @@ footer {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .timeline-item {
+    width: 80%;
+    margin-bottom: 50px;
   }
 }
