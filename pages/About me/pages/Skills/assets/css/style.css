@@ -118,6 +118,34 @@ body {
   width: 70%;
 }
 
+.skill-level.communication {
+  width: 85%;
+}
+
+.skill-level.collaboration {
+  width: 80%;
+}
+
+.skill-level.problemsolving {
+  width: 75%;
+}
+
+.skill-level.adaptability {
+  width: 80%;
+}
+
+.skill-level.criticalthinking {
+  width: 75%;
+}
+
+.skill-level.timemanagement {
+  width: 70%;
+}
+
+.skill-level.creativity {
+  width: 80%;
+}
+
 footer {
   font-family: 'Poppins', sans-serif;
   background-color: #111; 
