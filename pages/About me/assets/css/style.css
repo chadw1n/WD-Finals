@@ -92,6 +92,45 @@ main.about-container {
   overflow-y: auto;
 }
 
+.right-panel h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.right-panel p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.right-panel ul {
+  margin: 15px 0 25px 20px;
+}
+
+.right-panel ul li {
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 12px 30px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #333;
+}
+
 header {
   display: flex;
   justify-content: space-between;
