@@ -92,6 +92,15 @@ header, header nav a {
   border-radius: 10px;
 }
 
+.org-title-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2rem;
+}
+
 footer {
   font-family: 'Poppins', sans-serif;
   background-color: #111; 
