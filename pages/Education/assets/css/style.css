@@ -44,8 +44,8 @@ header, header nav a {
 
 .education-section {
   min-height: 100vh;
-  padding: 80px 20px;
-  max-width: 1200px;
+  padding: 120px 20px 80px 20px;
+  max-width: 1400px;
   margin: 0 auto;
   text-align: center;
 }
@@ -62,7 +62,16 @@ header, header nav a {
   color: #bbb;
 }
 
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
 .timeline {
+  flex: 1 1 700px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -93,10 +102,6 @@ header, header nav a {
   margin: 0 auto 20px auto;
   background-color: #000;
   border: 3px solid #4a6cff;
-}
-
-.timeline-item.past .circle {
-  background-color: #000;
 }
 
 .timeline-item.present .circle {
@@ -145,14 +150,22 @@ header, header nav a {
   transition: transform 0.3s;
 }
 
-.timeline-item:hover .year-tag,
-.timeline-item.hover .year-tag {
+.timeline-item:hover .year-tag {
   transform: scale(1.05);
 }
 
-.timeline-item:hover .edu-box,
-.timeline-item.hover .edu-box {
-  transform: translateY(-5px);
+.timeline-image {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
 }
 
 footer {
@@ -229,56 +242,12 @@ footer {
   font-size: 0.9rem;
 }
 
-.timeline-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
+.timeline-item.hover .year-tag {
+  transform: scale(1.05);
 }
 
-.timeline {
-  flex: 1 1 60%;
+.timeline-item.hover .edu-box {
+  transform: translateY(-5px);
 }
 
-.timeline-image {
-  flex: 1 1 35%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
 
-.timeline-image img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 15px;
-}
-
-@media (max-width: 768px) {
-  .timeline-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .timeline {
-    width: 100%;
-  }
-
-  .timeline-image {
-    width: 100%;
-    margin-top: 30px;
-  }
-
-  .timeline::before {
-    height: 100%;
-    width: 4px;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .timeline-item {
-    width: 80%;
-    margin-bottom: 50px;
-  }
-}

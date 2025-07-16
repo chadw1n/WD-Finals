@@ -24,7 +24,7 @@
   <section class="education-section">
     <h1>Education Journey</h1>
     <p class="intro">"Learning never stops, this is just the beginning of my journey in technology 
-      and cybersecurity. With every challenge, I grow stronger, ready to innovate and protect the digital world."</p>
+      and cybersecurity. With every challenge,<br> I grow stronger, ready to innovate and protect the digital world."</p>
       
       <div class="timeline-container">
         <div class="timeline">
@@ -98,17 +98,17 @@
   </footer>
 
   <script>
-  const yearTags = document.querySelectorAll('.year-tag');
+    const yearTags = document.querySelectorAll('.year-tag');
 
-  yearTags.forEach(tag => {
-    tag.addEventListener('mouseenter', () => {
-      tag.closest('.timeline-item').classList.add('hover');
+    yearTags.forEach(tag => {
+      tag.addEventListener('mouseenter', () => {
+        tag.closest('.timeline-item').classList.add('hover');
+      });
+      tag.addEventListener('mouseleave', () => {
+        tag.closest('.timeline-item').classList.remove('hover');
+      });
     });
-    tag.addEventListener('mouseleave', () => {
-      tag.closest('.timeline-item').classList.remove('hover');
-    });
-  });
-</script>
+  </script>
 
 </body>
 </html>
