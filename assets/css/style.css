@@ -85,6 +85,16 @@ header, header nav a {
   padding-bottom: 30px;
 }
 
+.hero-text.right {
+  bottom: 20px;
+  right: 30px;
+  padding-right: 1.2rem;
+  max-width: 35%;
+  font-size: 1.1rem;
+  padding-bottom: 52px;
+  text-align: right;
+}
+
 footer {
   background-color: #222;
   color: #fff;
