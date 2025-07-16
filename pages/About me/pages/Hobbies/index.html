@@ -111,6 +111,18 @@
       </div>
     </div>
   </section>
+
+  <script>
+    window.addEventListener('load', () => {
+      const images = document.querySelectorAll('.flip-card-front img');
+      images.forEach((img, index) => {
+        setTimeout(() => {
+          img.classList.add('visible');
+        }, index * 150);
+      });
+    });
+  </script>
+  
 </body>
 </html>
 
