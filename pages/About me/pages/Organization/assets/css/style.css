@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -28,6 +41,24 @@ nav a:hover {
 
 header, header nav a {
   font-family: 'Poppins', sans-serif;
+}
+
+.organization-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 120px 50px 50px;
+  background: linear-gradient(90deg, #000, #1a1a1a);
+}
+
+.org-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  width: 100%;
+  gap: 30px;
 }
 
 footer {
