@@ -102,50 +102,6 @@ body {
   width: 0;
 }
 
-.skill-level.cplusplus {
-  width: 70%;
-}
-
-.skill-level.htmlcss {
-  width: 45%;
-}
-
-.skill-level.javascript {
-  width: 25%;
-}
-
-.skill-level.uxdesign {
-  width: 70%;
-}
-
-.skill-level.communication {
-  width: 85%;
-}
-
-.skill-level.collaboration {
-  width: 80%;
-}
-
-.skill-level.problemsolving {
-  width: 75%;
-}
-
-.skill-level.adaptability {
-  width: 80%;
-}
-
-.skill-level.criticalthinking {
-  width: 75%;
-}
-
-.skill-level.timemanagement {
-  width: 70%;
-}
-
-.skill-level.creativity {
-  width: 80%;
-}
-
 footer {
   font-family: 'Poppins', sans-serif;
   background-color: #111; 
