@@ -122,5 +122,35 @@
     </div>
   </footer>
 
+  <script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.skill-level').forEach(el => {
+        if (el.classList.contains('cplusplus')) {
+          el.style.width = '70%';
+        } else if (el.classList.contains('htmlcss')) {
+          el.style.width = '45%';
+        } else if (el.classList.contains('javascript')) {
+          el.style.width = '25%';
+        } else if (el.classList.contains('uxdesign')) {
+          el.style.width = '70%';
+        } else if (el.classList.contains('communication')) {
+          el.style.width = '85%';
+        } else if (el.classList.contains('collaboration')) {
+          el.style.width = '80%';
+        } else if (el.classList.contains('problemsolving')) {
+          el.style.width = '75%';
+        } else if (el.classList.contains('adaptability')) {
+          el.style.width = '80%';
+        } else if (el.classList.contains('criticalthinking')) {
+          el.style.width = '75%';
+        } else if (el.classList.contains('timemanagement')) {
+          el.style.width = '70%';
+        } else if (el.classList.contains('creativity')) {
+          el.style.width = '80%';
+        }
+      });
+    });
+  </script>
+
 </body>
 </html>

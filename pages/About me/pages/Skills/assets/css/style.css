@@ -47,7 +47,7 @@ header, header nav a {
 }
 
 body {
-  padding-top: 90px; 
+  padding-top: 90px;
 }
 
 .skills-section {
@@ -99,6 +99,7 @@ body {
   height: 100%;
   background-color: #4a6cff;
   border-radius: 20px;
+  transition: width 1.5s ease-in-out;
   width: 0;
 }
 
