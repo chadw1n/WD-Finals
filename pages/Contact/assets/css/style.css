@@ -133,7 +133,6 @@ header, header nav a {
   transform: translateY(-2px);
 }
 
-
 .form-box {
   background-color: #f2f2f2;
   padding: 40px;
@@ -183,12 +182,19 @@ header, header nav a {
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s, transform 0.1s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .submit-btn:hover {
-  background-color: #ddd;
-  color: #000;
+  background-color: #4a6cff;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 footer {
