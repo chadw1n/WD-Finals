@@ -29,15 +29,42 @@ header img {
 }
 
 nav a {
+  position: relative;
   margin: 0 15px;
   text-decoration: none;
-  color: #ffffff;
+  color: #ccc;
   font-weight: 500;
-  transition: color 0.3s;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  transition: 
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #4a90e2;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
 }
 
 nav a:hover {
-  color: #4a6cff;
+  color: #4a90e2;
+  transform: scale(1.05);
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+}
+
+nav a:active {
+  transform: scale(0.95);
 }
 
 header, header nav a {
