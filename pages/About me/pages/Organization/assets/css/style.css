@@ -43,6 +43,15 @@ header, header nav a {
   font-family: 'Poppins', sans-serif;
 }
 
+.logo-link img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.logo-link:hover img {
+  transform: translateY(-5px) rotate(-3deg) scale(1.05);
+  filter: drop-shadow(0 4px 10px rgba(255, 255, 255, 0.3));
+}
+
 .organization-section {
   display: flex;
   justify-content: center;

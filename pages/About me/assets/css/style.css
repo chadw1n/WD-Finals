@@ -16,6 +16,47 @@ body {
   color: #333;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  background-color: #111;
+}
+
+header img {
+  height: 50px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #4a6cff;
+}
+
+header, header nav a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-link img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.logo-link:hover img {
+  transform: translateY(-5px) rotate(-3deg) scale(1.05);
+  filter: drop-shadow(0 4px 10px rgba(255, 255, 255, 0.3));
+}
+
 main.about-container {
   display: flex;
   flex-wrap: wrap;
@@ -145,38 +186,6 @@ main.about-container {
 .btn:active {
   transform: scale(0.96);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 20;
-  background-color: #111;
-}
-
-header img {
-  height: 50px;
-}
-
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #4a6cff;
-}
-
-header, header nav a {
-  font-family: 'Poppins', sans-serif;
 }
 
 footer {
