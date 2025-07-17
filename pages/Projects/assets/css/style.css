@@ -76,16 +76,22 @@ header, header nav a {
   color: #ccc;
 }
 
+.intro-text {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
 .intro-text p {
   max-width: 1000px;
   padding: 1.5rem 2rem;
-  background: rgba(0, 0, 0, 0.6); 
-  border-radius: 12px;
   line-height: 1.8;
   text-align: center;
   font-size: 1.3rem;
   color: #eee;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .project-card {
