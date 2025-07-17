@@ -109,8 +109,10 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Google fonts | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Font awesome | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Google fonts | Used to apply modern and readable typography across the site, improving both accessibility and aesthetics. | https://fonts.google.com |
+| Font awesome | Provides scalable vector icons for interactive UI elements like hover effects and social links. | https://fontawesome.com/ |
+| Canva | Used to design custom logos and background graphics, contributing to the overall UX and branding. | https://www.canva.com |
+| Pinterest | Served as an inspiration board for UI/UX design ideas, layout references, and color combinations. | https://www.pinterest.com |
+
