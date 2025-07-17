@@ -64,7 +64,10 @@ header, header nav a {
 
 .projects-section h1 {
   font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: #fff;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .projects-section p {
@@ -105,9 +108,9 @@ header, header nav a {
 }
 
 .project-content h2 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #4dd0e1; 
 }
 
 .project-content p {
@@ -140,6 +143,11 @@ header, header nav a {
 .btn:hover {
   background: #666;
   transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: scale(0.96);
+  background: #444; 
 }
 
 .visit {
@@ -214,6 +222,36 @@ header, header nav a {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.project-main-image img:hover,
+.preview-gallery img:hover {
+  filter: brightness(1.1);
+  transform: scale(1.05);
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.project-card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.project-card {
+  animation: fadeSlideIn 0.8s ease forwards;
+  opacity: 0;
 }
 
 footer {
